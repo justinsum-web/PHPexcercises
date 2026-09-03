@@ -7,7 +7,7 @@
 <body>
     <h2>Random Winner Generator</h2>
     <form method="POST">
-        <label for="participants">Participant Names (comma-separated):</label><br>
+        <label for="participants">Participant Names:</label><br>
         <input type="text" id="participants" name="participants" placeholder="Alice, Bob, Charlie, Diana" required style="width: 350px;"><br><br>
         <button type="submit">Pick Winner</button>
     </form>
