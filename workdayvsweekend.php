@@ -22,9 +22,9 @@
         $dayNum = (int)$dateObj->format('N');
 
         if ($dayNum <= 5) {
-            echo "<p><strong>{$formattedDate} is a {$dayName}, which means it is a Workday!</strong></p>";
+            echo "<p><strong>{$formattedDate} is a {$dayName}, which means it is a Workday</strong></p>";
         } else {
-            echo "<p><strong>{$formattedDate} is a {$dayName}, so it is the Weekend!</strong></p>";
+            echo "<p><strong>{$formattedDate} is a {$dayName}, so it is the Weekend</strong></p>";
         }
     }
     ?>
