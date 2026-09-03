@@ -16,7 +16,6 @@
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['birth_year'])) {
         $year = (int)$_POST['birth_year'];
 
-        // Leap Year Check using PHP's date format parameter 'L'
         $isLeapYear = (bool)date('L', mktime(0, 0, 0, 1, 1, $year));
         $leapString = $isLeapYear ? "was a Leap Year!" : "was NOT a Leap Year.";
 
